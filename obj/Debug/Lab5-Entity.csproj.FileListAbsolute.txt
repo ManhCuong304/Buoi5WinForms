@@ -1,0 +1,15 @@
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\bin\Debug\Lab5-Entity.exe.config
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\bin\Debug\Lab5-Entity.exe
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\bin\Debug\Lab5-Entity.pdb
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\bin\Debug\EntityFramework.dll
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\bin\Debug\EntityFramework.xml
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\obj\Debug\Lab5-Entity.csproj.AssemblyReference.cache
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\obj\Debug\Lab5_Entity.Form1.resources
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\obj\Debug\Lab5_Entity.Properties.Resources.resources
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\obj\Debug\Lab5-Entity.csproj.GenerateResource.cache
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\obj\Debug\Lab5-Entity.csproj.CoreCompileInputs.cache
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\obj\Debug\Lab5-Ent.7E49B965.Up2Date
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\obj\Debug\Lab5-Entity.exe
+C:\Users\Nmcuo\source\repos\Bai1\Lab5-Entity\obj\Debug\Lab5-Entity.pdb
