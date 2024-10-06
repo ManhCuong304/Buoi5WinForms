@@ -141,20 +141,19 @@ namespace Lab5_Entity
 
                     if (studentEdit != null)
                     {
-                        string newMSSV = txtMSSV.Text;
-                        if (newMSSV != studentEdit.MSSV)
-                        {
-                            var existingStudent = md1.SinhViens.FirstOrDefault(s => s.MSSV == newMSSV);
-                            if (existingStudent != null)
-                            {
-                                MessageBox.Show("Mã sinh viên mới đã tồn tại. Vui lòng nhập mã khác.");
-                                return;
-                            }
-                            studentEdit.MSSV = newMSSV;
-                        }
                         studentEdit.TenSinhVien = txtHoTen.Text;
                         studentEdit.MaKhoa = cmbKhoa.SelectedValue.ToString();
-                        studentEdit.DiemTrungBinh = decimal.Parse(txtDTB.Text);
+
+                        if (decimal.TryParse(txtDTB.Text, out decimal dtb))
+                        {
+                            studentEdit.DiemTrungBinh = dtb; 
+                        }
+                        else
+                        {
+                            MessageBox.Show("Điểm không hợp lệ. Vui lòng nhập lại.");
+                            return; 
+                        }
+
                         md1.SaveChanges();
                         LoadDataGridView();
 
@@ -168,10 +167,6 @@ namespace Lab5_Entity
                     {
                         MessageBox.Show("Sinh viên không tồn tại!");
                     }
-                }
-                catch (FormatException)
-                {
-                    MessageBox.Show("Vui lòng nhập đúng định dạng cho Mã, Điểm.");
                 }
                 catch (Exception ex)
                 {
